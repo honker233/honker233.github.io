@@ -1,0 +1,1 @@
+let mobileSidebarOpen = 233
