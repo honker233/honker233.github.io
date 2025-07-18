@@ -1,0 +1,16 @@
+name,description,type,class,method,module,priority
+testUserLogin,测试用户登录功能,UNIT_TEST,UserServiceTest,testUserLogin,com.example.user,2
+testUserRegister,测试用户注册功能,UNIT_TEST,UserServiceTest,testUserRegister,com.example.user,2
+testPasswordValidation,测试密码验证,UNIT_TEST,UserServiceTest,testPasswordValidation,com.example.user,1
+testUserProfileUpdate,测试用户资料更新,UNIT_TEST,UserServiceTest,testUserProfileUpdate,com.example.user,1
+testUserPermission,测试用户权限验证,UNIT_TEST,UserServiceTest,testUserPermission,com.example.user,3
+testOrderCreate,测试订单创建,UNIT_TEST,OrderServiceTest,testOrderCreate,com.example.order,2
+testOrderCancel,测试订单取消,UNIT_TEST,OrderServiceTest,testOrderCancel,com.example.order,1
+testOrderPayment,测试订单支付,UNIT_TEST,OrderServiceTest,testOrderPayment,com.example.order,3
+testProductSearch,测试商品搜索,UNIT_TEST,ProductServiceTest,testProductSearch,com.example.product,1
+testProductInventory,测试库存管理,UNIT_TEST,ProductServiceTest,testProductInventory,com.example.product,2
+testEmailNotification,测试邮件通知,INTEGRATION_TEST,NotificationServiceTest,testEmailNotification,com.example.notification,2
+testSmsNotification,测试短信通知,INTEGRATION_TEST,NotificationServiceTest,testSmsNotification,com.example.notification,1
+testFileUpload,测试文件上传,INTEGRATION_TEST,FileServiceTest,testFileUpload,com.example.file,1
+testDataBackup,测试数据备份,INTEGRATION_TEST,BackupServiceTest,testDataBackup,com.example.backup,3
+testApiSecurity,测试API安全,INTEGRATION_TEST,SecurityTest,testApiSecurity,com.example.security,3
